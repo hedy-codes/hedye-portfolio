@@ -1,9 +1,13 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 function App() {
   return (
     <>
-      <h1 className="text-red-800 text-9xl italic flex justify-center">
-        hello
-      </h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<h1>this is layout</h1>} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
