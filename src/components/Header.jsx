@@ -8,6 +8,9 @@ export default function Header() {
         <Link to={"/"}>
           <FaHome />
         </Link>
+        <Link to={"/skills"}>مهارت ها </Link>
+        <Link to={"/projects"}>پروژه ها </Link>
+        <Link to={"/contact"}>تماس </Link>
       </header>
     </div>
   );
