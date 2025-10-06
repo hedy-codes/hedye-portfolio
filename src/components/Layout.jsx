@@ -1,3 +1,8 @@
+import Header from "./Header";
 export default function Layout() {
-  return <div></div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
