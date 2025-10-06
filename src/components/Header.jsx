@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div>
-      <header></header>
+      <header>
+        <Link to={"/"}>
+          <FaHome />
+        </Link>
+      </header>
     </div>
   );
 }
