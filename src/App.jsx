@@ -6,7 +6,14 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<h1>this is layout</h1>} />
+          <Route
+            path="/"
+            element={
+              <h1>
+                <Layout />
+              </h1>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>
