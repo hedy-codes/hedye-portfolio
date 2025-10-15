@@ -6,14 +6,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route
-            path="/"
-            element={
-              <h1>
-                <Layout />
-              </h1>
-            }
-          ></Route>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
