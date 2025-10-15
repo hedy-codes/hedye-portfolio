@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: iransans;
+  src: url(./assets/fonts/Iranian\ Sans.ttf);
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background: #f3f4f6;
+  overflow-x: hidden;
+  direction: rtl;
+}
