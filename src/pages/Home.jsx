@@ -6,6 +6,10 @@ export default function Home() {
       </div>
       <div className=" w-[400px]">
         <h1 className="text-[60px] font-bold text-blue-800">هدیه عزیزی</h1>
+        <div className="text-center leading-10 text-xl h-[100px]">
+          <TypeEffect />
+        </div>
+        <Button lable={"درباره من"} className="w-[150px] animate-pulse" />
       </div>
     </div>
   );
