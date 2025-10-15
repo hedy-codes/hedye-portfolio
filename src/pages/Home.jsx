@@ -1,4 +1,5 @@
 import Button from "./../components/Button";
+import TypeEffect from "./../components/TypeEffect";
 
 export default function Home() {
   return (
