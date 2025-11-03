@@ -20,3 +20,7 @@ body {
   overflow-x: hidden;
   direction: rtl;
 }
+
+.page-title {
+  @apply text-[40px] text-center w-full font-bold text-black my-6;
+}
